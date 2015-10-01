@@ -10,6 +10,7 @@ hasOccurred = false;
 
 println("hasOccurred is \(hasOccurred)")
 
+//declaration and initialization
 var isTerrific: Bool = true
 
 println("isTerrific is \(isTerrific)")
