@@ -6,6 +6,8 @@ General Format:
 if let <tempVar> = <optional variable> {
 	//Enter if optional variable is not nil i.e. it has a value
 	//Assign the value to tempVar
+} else {
+	//else is executed if optional variable is nil
 }
 
 */
