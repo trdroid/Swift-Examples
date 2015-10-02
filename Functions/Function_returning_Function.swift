@@ -1,16 +1,16 @@
+func doubleNumber(number: Int) -> Int {
+	return 2 * number
+}
+
+func tripleNumber(number: Int) -> Int {
+	return 3 * number
+}
+
 func multiply(command: String) -> ((Int) -> (Int)) {
 	if(command == "double") {
-		func doubleNumber(number: Int) -> Int {
-			return 2 * number
-		}
-		
 		return doubleNumber
 	}
 	else {
-		func tripleNumber(number: Int) -> Int {
-			return 3 * number
-		}
-		
 		return tripleNumber
 	}
 }
