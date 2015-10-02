@@ -1,5 +1,6 @@
 /*
-	An optional variable is declared by adding a ? to the type declaration
+	By default, SWIFT ASSUMES THAT ALL VARIABLES HAVE A VALUE
+	An optional variable is declared by adding a ? to the type declaration to let Swift compiler know that it can possibly NOT HAVE A VALUE (i.e. nil)
 */
 
 /*
