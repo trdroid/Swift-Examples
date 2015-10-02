@@ -2,9 +2,9 @@ Functions
 
 Syntax:
 ```swift
-	func <function name>([<parameters>]) [-> <return type>] {
-		<function body>
-	}
+func <function name>([<parameters>]) [-> <return type>] {
+	<function body>
+}
 ```
 
 Facts
