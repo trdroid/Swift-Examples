@@ -1,5 +1,5 @@
 func greet2(name: String) -> String {
-	return "Welcome " + name;
+	return "Welcome " + name
 }
 
-println(greet2("Keith"));
+println(greet2("Keith"))
