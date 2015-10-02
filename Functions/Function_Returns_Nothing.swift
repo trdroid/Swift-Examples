@@ -1,10 +1,10 @@
 func greet(name: String) {
-	println("Welcome " + name);
+	println("Welcome " + name)
 }
 
 func greet1(name: String) -> Void {
-	println("Welcome " + name);
+	println("Welcome " + name)
 }
 
-greet("Keith");
-greet1("Keith");
+greet("Keith")
+greet1("Keith")
