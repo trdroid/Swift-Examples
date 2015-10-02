@@ -10,6 +10,7 @@ if let <tempVar> = <optional variable> {
 	//else is executed if optional variable is nil
 }
 
+NOTE: There is no check for truthy with if let!
 */
 
 var str: String?
