@@ -18,7 +18,10 @@ var proxyPerson2: (String, Int) -> () = person
 proxyPerson1("Keith", 32)
 
 /*
-	function type is () -> ()
+	function type is:
+	() -> ()
+	(or)
+	Void -> Void
 */
 func sayHello() -> Void {
 	println("Hello...")
