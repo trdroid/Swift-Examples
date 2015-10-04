@@ -6,7 +6,7 @@ var str: String? = "Welcome"
 
 println(str)
 
-//Force unwrap a string to get its value
+//Force unwrap an optional string to get its value
 println(str!)
 
 var str1: String?
