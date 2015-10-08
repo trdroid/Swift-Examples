@@ -8,7 +8,24 @@ A Closure is a block of code that could be passed around in code to perform a sp
   { (parameters) -> returnType in
     //code
   }
+  
+  { (arg1: Int, arg2: Int) -> Int in
+    return arg1 + arg2
+  }
 ```
+
+If parameter types can be inferred from the context, then the types and parentheses can be dropped.
+
+```swift
+  { parameters in
+    //code
+  }
+  
+  { arg1, arg2 in
+    return arg1 + arg2
+  }
+```
+
 Parameters could be constants, variables, tuples, inouts or a variable-length argument as a last parameter. 
 
 Closures capture references to constants and variables in the context in which they are defined. 
