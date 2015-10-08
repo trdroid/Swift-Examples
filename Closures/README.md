@@ -1,6 +1,6 @@
 # Closures
 
-A Closure is a block of code to perform a specific task.
+A Closure is a block of code that could be passed around in code to perform a specific task.
 
 ### Syntax
 
