@@ -40,9 +40,9 @@ The arguments in an inline closure are assigned names in sequence as $0, $1, $2 
 If a function takes a closure as its final parameter, the closure argument can be moved outside of the parentheses next to it.
 
 ```swift
-  fn(<arguments>, { $0 + $1 })
+  fn(<arguments to function>, { $0 + $1 })
   //can be written as
-  fn(<arguments>) { $0 + $1 } 
+  fn(<arguments to function>) { $0 + $1 } 
   
   fn({ $0 + $1 })
   //can be written as
