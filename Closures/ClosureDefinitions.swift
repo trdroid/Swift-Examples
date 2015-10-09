@@ -1,5 +1,11 @@
 //add variable receives the closure
 func sum(arg1: Int, arg2: Int, add: (Int, Int) -> Int) -> Int {
+	/*
+	add(arg1, arg2):
+		invokes the closure with the arg1, arg2
+		If the closure makes use of the names $0, $1, 
+		then $0 takes arg1, $1 takes arg2
+	*/
 	return add(arg1, arg2)
 }
 
