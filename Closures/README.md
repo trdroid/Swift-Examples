@@ -14,7 +14,7 @@ A Closure is a block of code that could be passed around in code to perform a sp
   }
 ```
 
-If parameter types can be inferred from the context, then the types and parentheses can be dropped.
+If parameter types can be inferred from the context, then the types, parentheses and -> can be dropped.
 
 ```swift
   { parameters in
