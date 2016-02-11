@@ -26,7 +26,7 @@ Optinals can be used with any type.
 
 ### Force Unwrapping
 
-To access the underlying value of an optional, it has to be force unwrapped by adding '!' as a suffix to the variable.
+To access the underlying value of an optional, it has to be force unwrapped. It is done by adding '!' as a suffix to the variable.
 
 ```swift
 	println(str!)
