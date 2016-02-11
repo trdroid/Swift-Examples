@@ -4,18 +4,21 @@ An optional variable implies that the variable can possibly have a nil value i.e
 * either HAS a value
 * or HAS NO value, nil
 
-### Declarations
+### Declaration
 
 An optional type is declared by adding '?' as a suffix to the type.
 
 ```swift
 	var str: String? 
+	//The value of str is nil as it is not initialized with a value
 	
 	str = "I am an optional and I could be nil"
+	//now, str has a value and is not nil
 ```
 
 
 ```swift
+	//initializing an optional variable
 	var str: String? = "Welcome"
 ```
 
