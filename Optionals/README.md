@@ -24,6 +24,32 @@ An optional type is declared by adding '?' as a suffix to the type.
 
 Optinals can be used with any type. 
 
-### Benefits 
+### Force Unwrapping
+
+To access the underlying value of an optional, it has to be force unwrapped by adding '!' as a suffix to the variable.
+
+```swift
+	println(str!)
+```
+
+The "Force" unwrapping attempts to get the underlying value without even checking to see if there is a value. It BLINDLY assumes that there is a value and tries to access it.
+
+<i>So, why is this a problem?</i>
+
+Attempting to access the underlying value of an optional when it is nil results in a runtime error.
+
+Therefore, a better way of force unwrap an optional is to
+* check to see if it is not null
+* AND THEN, force unwrap it
+
+```swift
+if str != nil {
+	let result = str!
+	println(result)
+}
+```
+
+
+### Benefits of Optionals
 
 * Optionals make the language safer, as any instance that is NOT declared to be an optional type is GUARANTEED to have a value and not nil
