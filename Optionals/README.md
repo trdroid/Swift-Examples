@@ -56,9 +56,9 @@ This approach can be further condensed by combining the condition check (str != 
 
 ```swift
 /*
-	Optional Binding Pattern
+	Optional Binding Pattern (if let binding)
 
-	combines both operations into a single line
+	combines both operations into a single line i.e. 
 
 	1) checks to see if str is not nil (i.e str != nil)
 	2) if so, force unwraps str and assigns the value to the constant 'result'
@@ -72,6 +72,15 @@ if let result = str {
 } else {
 	println("str is nil")
 }
+
+/*
+	The line 
+		if let result = str 
+	does two things
+	
+	1) checks to see if str is not nil (i.e str != nil)
+	2) if so, force unwraps str and assigns the value to the constant 'result'
+*/
 ```
 
 ### Benefits of Optionals
