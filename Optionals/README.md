@@ -44,11 +44,35 @@ Therefore, a better way of force unwrap an optional is to
 
 ```swift
 if str != nil {
+	//can safely unwrap 'str' now as it is not nil i.e. it for sure has an underlying value
 	let result = str!
 	println(result)
 }
 ```
 
+This approach can be further condensed by combining the condition check (str != nil) and the assignment to a constant (let result = str!) to a single line. This pattern is referred to as <i>optional binding</i>.
+
+### Optional Binding
+
+```swift
+/*
+	Optional Binding Pattern
+
+	combines both operations into a single line
+
+	1) checks to see if str is not nil (i.e str != nil)
+	2) if so, force unwraps str and assigns the value to the constant 'result'
+
+	'result' is only made available and is assigned a value if str is not nil 
+	
+	'result' is only available to the if condition branch but not the else
+*/
+if let result = str {
+	println(result)
+} else {
+	println("str is nil")
+}
+```
 
 ### Benefits of Optionals
 
