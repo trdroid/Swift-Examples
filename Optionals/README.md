@@ -79,7 +79,7 @@ if let result = str {
 	does two things
 	
 	1) checks to see if str is not nil (i.e str != nil)
-	2) if so, force unwraps str and assigns the value to the constant 'result'
+	2) if so, force unwraps str and assigns the value to the constant 'result' (i.e let result = str!)
 */
 ```
 
