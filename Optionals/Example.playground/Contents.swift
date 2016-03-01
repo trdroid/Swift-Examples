@@ -60,3 +60,9 @@ does two things
 2) if so, force unwraps str and assigns the value to the constant 'result' (i.e let result = str!)
 */
 
+func processResult(String) -> String? {
+	return "Result further processed"
+	
+	//return nil
+}
+
